@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The original rummikub</title>
+</head>
+<link rel="stylesheet" href="..\Remi.css">
+
+<body id="homepage">
+    <div id="homepageheader"><img id="logo" src="..\images\logo-1.png" /></div>
+
+
+
+    <div id="center">
+        <h1 id="wellcome">WELLCOME TO THE RUMMIKUB GAME!!</h1></br>
+        <div id="form">
+            <form>
+                <div id="insert_name_div">
+                    <lable id="insert_name_lable"> insert yuor name:</lable></br>
+                    <input id="input_name" type="text" name="playername" placeholder=""></input>
+
+
+                </div>
+                <div id="num_of_players">
+                    <label id="choose_num_of_players">
+                        choose the number of players:
+                    </label></br>
+
+
+                    <input type="radio" name="num_of_players" value="one player" checked=true>1 player</input>
+                    <input type="radio" name="num_of_players" value="two players">2 players</input>
+                </div>
+                <div id="choose_level_div">
+                    <label id="choose level_lable">
+                        choose level:
+                    </label></br>
+                    <input type="radio" name="level" value="level 1" checked=true>level 1: 15 seconds</input></br>
+                    <input type="radio" name="level" value="level 2">level 2: 10 seconds</input></br>
+                </div>
+
+                <button id="begin" class="btn"> Start Play</button>
+            </form>
+
+        </div>
+    </div>
+    <script src="../js/remihomepage.js">
+     
+    </script>
+</body>
+
+</html>
